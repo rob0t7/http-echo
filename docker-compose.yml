@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  echo-server:
+    build: .
+    environment:
+      PORT: 8085
+      NODE_ENV: production
+    ports:
+      - 8085:8085
+    volumes:
+      - ./:/opt/http-echo

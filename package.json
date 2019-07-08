@@ -1,0 +1,15 @@
+{
+  "name": "http-echo",
+  "version": "1.0.0",
+  "description": "A simple HTTP echo server used for testing",
+  "repository": "https://github.com/rob0t7/http-echo",
+  "author": "Robert Jackiewicz <rob@jackiewicz.ca>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "http-echo-server"
+  },
+  "dependencies": {
+    "http-echo-server": "^2.1.1"
+  }
+}
